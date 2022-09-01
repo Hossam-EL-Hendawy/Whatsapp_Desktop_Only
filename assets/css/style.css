@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=IBM+Plex+Sans+Arabic:wght@200&family=Tajawal:wght@200&display=swap');
+* {
+    background-color: #f8f9fa;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+#Keep_your_phone {
+    border: .3px solid rgb(184, 184, 184);
+    transform: rotate(90deg);
+    margin-left: -530px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+#keep {
+    margin-top: 80px;
+    margin-left: 700px;
+}
+
+#keep2 {
+    margin-left: 660px;
+}
+
+#the_search {
+    border: 1px solid transparent;
+    background-color: #ededed;
+    height: 65px;
+    margin-top: -502px;
+    margin-left: -60px;
+    width: 469px;
+}
+
+#icon1 {
+    margin-top: -50px;
+    margin-left: 260px;
+    display: flex;
+    cursor: pointer;
+}
+
+#icon2 {
+    margin-top: -28px;
+    margin-left: 310px;
+    display: flex;
+    cursor: pointer;
+}
+
+#icon3 {
+    margin-top: -28px;
+    margin-left: 350px;
+    display: flex;
+    cursor: pointer;
+}
+
+#Profile1 {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -35px;
+    margin-left: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+#green_line {
+    border: 1px solid #4adf83;
+    background-color: #4adf83;
+    width: 945.5px;
+    height: 5px;
+    margin-left: 410px;
+    margin-top: 605px;
+}
+
+#bacground-search-box {
+    background-color: #f6f6f6;
+    border: 1px solid transparent;
+    margin-top: -603px;
+    height: 45px;
+    width: 418px;
+    margin-left: -10px;
+}
+
+#search-box {
+    width: 390px;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#search-box::placeholder {
+    color: #a0a0a0;
+    padding: 50px;
+}
+
+#contact {
+    border: 1px solid transparent;
+    background-color: white;
+    width: 417px;
+    height: 553px;
+    margin-left: -9px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#contact::-webkit-scrollbar {
+    width: .5em;
+}
+
+#contact::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+}
+
+#Archived {
+    cursor: pointer;
+}
+
+#hr1 {
+    width: 80%;
+    margin-left: 73px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: .02px solid #ededed;
+    margin-top: 1px;
+}
+
+#hr2 {
+    width: 80%;
+    margin-left: 73px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: .02px solid #ededed;
+    margin-top: 6px;
+}
+
+#hr3 {
+    width: 80%;
+    margin-left: 73px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: .02px solid #ededed;
+    margin-top: 8px;
+}
+
+#contact1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#list1 {
+    font-size: larger;
+    background-color: transparent;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+    margin-top: -55px;
+    margin-left: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+#list11 {
+    font-size: small;
+    color: #afaeae;
+    background-color: transparent;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 90px;
+    display: flex;
+    cursor: pointer;
+}
+
+#list111 {
+    background-color: transparent;
+    margin-top: -15px;
+    margin-left: 70px;
+    display: flex;
+    cursor: pointer;
+}
+
+#date1 {
+    background-color: transparent;
+    margin-top: -60px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#num1 {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#contact2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#num2 {
+    background-color: transparent;
+}
+
+#list2 {
+    background-color: transparent;
+    margin-top: -50px;
+    margin-left: 80px;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#emoji {
+    background-color: transparent;
+    margin-left: 75px;
+}
+
+#date2 {
+    background-color: transparent;
+    margin-top: -70px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#contact3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#num3 {
+    background-color: transparent;
+}
+
+#num4,
+#num5,
+#num6,
+#num7,
+#num8,
+#num9,
+#num10,
+#num11,
+#num12,
+#num13,
+#num14,
+#num15 {
+    background-color: transparent;
+}
+
+#date3 {
+    background-color: transparent;
+    margin-top: -70px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#hr4 {
+    width: 80%;
+    margin-left: 73px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: .02px solid #ededed;
+    margin-top: 8px;
+}
+
+#list333 {
+    background-color: transparent;
+    margin-top: -20px;
+    margin-left: 70px;
+    display: flex;
+    cursor: pointer;
+}
+
+#date4 {
+    background-color: transparent;
+    margin-top: -60px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#date5 {
+    background-color: transparent;
+    margin-top: -60px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#date6 {
+    background-color: transparent;
+    margin-top: -60px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+#date7 {
+    background-color: transparent;
+    margin-top: -60px;
+    color: #afaeae;
+    font-size: small;
+    margin-left: 330px;
+    display: flex;
+    font-weight: bold;
+}
+
+
+/* =================================================== POPUP ==================================================*/
+
+.swal-icon {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+    margin: 20px auto;
+    background: transparent;
+}
+
+.swal-icon--error {
+    border-color: #2fcbb6;
+    -webkit-animation: animateErrorIcon .5s;
+    animation: animateErrorIcon .5s;
+}
+
+.swal-icon--error__line {
+    position: absolute;
+    height: 5px;
+    width: 47px;
+    background-color: #2fcbb6;
+    display: block;
+    top: 37px;
+    border-radius: 2px;
+}
+
+.swal-title {
+    color: #2fcbb6;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+    font-size: 27px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.swal-text {
+    font-size: 16px;
+    position: relative;
+    float: none;
+    line-height: normal;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 400;
+    color: #2fcbb6;
+    max-width: calc(100% - 20px);
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.swal-button {
+    background-color: #2fcbb6;
+    border: none;
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.swal-footer {
+    text-align: right;
+    padding-top: 13px;
+    margin-top: 13px;
+    padding: 13px 16px;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #2fcbb6;
+}
+
+
+/* for exit button of contact message */
+
+.jBox-overlay .jBox-closeButton {
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+}
+
+.jBox-Modal .jBox-content {
+    padding: 30px 80px !important;
+    border-radius: 20px;
+}
