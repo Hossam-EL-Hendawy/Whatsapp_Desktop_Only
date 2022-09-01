@@ -1,5 +1,6 @@
 # Whatsapp_Desktop_Only
 A simulation of WhatsApp for desktop only and is not available now for phones Some new options have been added based on a group of libraries Thank you for reading ❤
+<br>
 ![Capture](https://user-images.githubusercontent.com/69869605/187908779-d0d641d7-18e7-43e5-a639-663ef1f47ddb.PNG)
 ![2](https://user-images.githubusercontent.com/69869605/187908782-87c62e88-b52d-400a-816e-8872904af077.PNG)
 ![3](https://user-images.githubusercontent.com/69869605/187908788-39b0c164-eb67-4bd2-9402-5d6876741717.PNG)
